@@ -154,18 +154,18 @@ include('header.php');
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div class="text-success"><?php echo $_SESSION['system']['contact'] ?></div>
+          <div class="text-success">+91 94765-88785</div>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-          <a class="d-block text-success" href="mailto:<?php echo $_SESSION['system']['email'] ?>"><?php echo $_SESSION['system']['email'] ?></a>
+          <a class="d-block text-success" href="mailto:eventmanager@gmail.com">eventmanager@gmail.com</a>
         </div>
       </div>
     </div>
     <br>
     <div class="container">
-      <div class="small text-center text-muted">Copyright © 2021 - <?php echo $_SESSION['system']['name'] ?> | <a class="text-success" href="https://www.sourcecodester.com/" target="_blank">ITSOURCECODE</a></div>
+      <div class="small text-center text-muted">Copyright © 2022 -  Event Management System | <a class="text-success" href="https://www.google.co.in/" target="_blank">EventManager</a></div>
     </div>
   </footer>
 
