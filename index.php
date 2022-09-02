@@ -60,7 +60,7 @@ include('header.php');
     background: #000000e6 !important;
   }
 </style>
-
+<link rel="shortcut icon" href="admin/assets/uploads/favicon.ico" type="image/x-icon">
 <body id="page-top">
   <!-- Navigation-->
   <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -75,7 +75,7 @@ include('header.php');
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=venue">Venues</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="AboutUs.html">About</a></li>
 
 
         </ul>
