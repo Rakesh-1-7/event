@@ -165,7 +165,7 @@ include('header.php');
     </div>
     <br>
     <div class="container">
-      <div class="small text-center text-muted">Copyright © 2022 -  Event Management System | <a class="text-success" href="https://www.google.co.in/" target="_blank">EventManager</a></div>
+      <div class="small text-center text-muted">Copyright © 2022 -  Event Management System | <a class="text-success" href="#" >EventManager</a></div>
     </div>
   </footer>
 

@@ -79,7 +79,7 @@ if (isset($_GET['id'])) {
 			<div class="col-lg-4 align-self-end mb-4 pt-2 page-title">
 				<h4 class="text-center text-white"><b><?php echo ucwords($event) ?></b></h4>
 				<hr class="divider my-4" />
-				<p class="text-center text-white"><small><b><i>Venue: <?php echo ucwords($venue) ?></small></i></b></p>
+				<p class="text-center text-white"><small><b><i>Venue: Online</small></i></b></p>
 
 			</div>
 
