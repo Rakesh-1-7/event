@@ -8,7 +8,7 @@
 		</div>
 		<div class="form-group">
 			<label for="" class="control-label">Address</label>
-			<textarea cols="30" rows = "2" required="" name="address" class="form-control"><?php echo isset($address) ? $address :'' ?></textarea>
+			<textarea cols="30" rows = "2" required name="address" class="form-control"><?php echo isset($address) ? $address :'' ?></textarea>
 		</div>
 		<div class="form-group">
 			<label for="" class="control-label">Email</label>
