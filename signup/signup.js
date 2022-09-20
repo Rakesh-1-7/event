@@ -9,7 +9,20 @@ function submitForm() {
     form.submit();
     }
 }
-
+function alphanumeric(uadd)
+{ 
+    var pattern = /^[A-Za-z][A-Za-z0-9_]*$/;
+    if(uadd.match(pattern))
+    {
+        return true;
+    }
+    else
+    {
+        alert('Username must have start with alphabet and must have alphanumeric characters and underscores only');
+        document.form1.username.focus();
+        return false;
+    }
+}
 function validatePassword() {
     const Username = document.getElementsByName("username")[0].value;
     const email = document.getElementsByName("email")[0].value;
@@ -22,8 +35,9 @@ function validatePassword() {
     const minNumberofChars = 6;
     const maxNumberofChars = 16;
     const regularExpression  = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;   
-    const unameExpression = /^[A-Za-z_][A-Za-z0-9_]{6,16}$/;
-    if(!regularExpression.test(Username) == false)
+    // const unameExpression = /^[A-Za-z][A-Za-z0-9]*$/;
+    // alert(Username);
+    if(!alphanumeric(Username)) 
     { 
         alert("Username must start with a letter and can only contain letters , numbers and underscores and must be between 6-16 characters long");
         return false;
@@ -31,6 +45,7 @@ function validatePassword() {
         else if(email == "")
     {
         alert("Please enter an email");
+        document.form1.email.focus();
         return false;
     }
     else if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)))
