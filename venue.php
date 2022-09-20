@@ -1,6 +1,11 @@
 <?php 
 include 'admin/db_connect.php'; 
+
 ?>
+<script>
+    var element = document.getElementById("login-button");
+    element.parentNode.removeChild(element);
+</script>
 <style>
 #portfolio .img-fluid{
     width: calc(100%);

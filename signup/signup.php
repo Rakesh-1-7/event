@@ -2,6 +2,7 @@
 
     $username = $_POST['username'];
     $passwd = $_POST['passwd'];
+    $passwd = md5($passwd);
     $confirm_passwd = $_POST['confirm_passwd'];
     $email = $_POST['email'];
 
