@@ -18,7 +18,7 @@ function alphanumeric(uadd)
     }
     else
     {
-        alert('Username must have start with alphabet and must have alphanumeric characters and underscores only');
+        alert('Username must start with alphabet and must have alphanumeric characters and underscores only');
         document.form1.username.focus();
         return false;
     }

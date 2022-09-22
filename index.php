@@ -76,6 +76,7 @@ include('header.php');
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=venue">Venues</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="AboutUs.html">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./feedback/feedback.html">Feedback</a></li>
           <li id="login-button" class="nav-item"><a class="nav-link js-scroll-trigger" href="./login/login.html">Login</a></li>
 
 
