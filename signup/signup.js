@@ -24,6 +24,7 @@ function alphanumeric(uadd)
     }
 }
 function validatePassword() {
+    const name = document.getElementsByName("name")[0].value;
     const Username = document.getElementsByName("username")[0].value;
     const email = document.getElementsByName("email")[0].value;
     
@@ -37,7 +38,17 @@ function validatePassword() {
     const regularExpression  = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;   
     // const unameExpression = /^[A-Za-z][A-Za-z0-9]*$/;
     // alert(Username);
-    if(!alphanumeric(Username)) 
+    if(name == "")
+    {
+        alert("Name is required");
+        return false;
+    }
+    else if (!name.match(/^[a-zA-Z ]*$/))
+    {
+        alert("Name must have alphabet characters only");
+        return false;
+    }
+    else if(!alphanumeric(Username)) 
     { 
         alert("Username must start with a letter and can only contain letters , numbers and underscores and must be between 6-16 characters long");
         return false;

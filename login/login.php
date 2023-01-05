@@ -9,7 +9,7 @@
         die('Connection Failed : '.$conn->connect_error);
     }
     else{
-        $stmt = $conn->prepare("select * from users where username = ? and password = ?");
+        $stmt = $conn->prepare("select * from signup where username = ? and password = ?");
         $stmt->bind_param("ss", $username, $passwd);
         $stmt->execute();
         $stmt_result = $stmt->get_result();
